@@ -1,0 +1,287 @@
+ UE4SS/src/ObjectDumper/ObjectToString.cpp | 247 +++++++++++++++++++++++++++++-
+ 1 file changed, 245 insertions(+), 2 deletions(-)
+
+diff --git a/UE4SS/src/ObjectDumper/ObjectToString.cpp b/UE4SS/src/ObjectDumper/ObjectToString.cpp
+index 86f838f..dc406b6 100644
+--- a/UE4SS/src/ObjectDumper/ObjectToString.cpp
++++ b/UE4SS/src/ObjectDumper/ObjectToString.cpp
+@@ -12,6 +12,7 @@
+ #include <Unreal/Property/FInterfaceProperty.hpp>
+ #include <Unreal/Property/FLazyObjectProperty.hpp>
+ #include <Unreal/Property/FMapProperty.hpp>
++#include <Unreal/Property/FSetProperty.hpp>
+ #include <Unreal/Property/FMulticastDelegateProperty.hpp>
+ #include <Unreal/Property/FMulticastInlineDelegateProperty.hpp>
+ #include <Unreal/Property/FMulticastSparseDelegateProperty.hpp>
+@@ -27,6 +28,8 @@
+ #include <Unreal/UFunction.hpp>
+ #include <Unreal/UObject.hpp>
+ #include <Unreal/UScriptStruct.hpp>
++#include <SDKGenerator/Common.hpp>
++#include <regex>
+ #pragma warning(default : 4005)
+ 
+ namespace RC::ObjectDumper
+@@ -73,20 +76,260 @@ namespace RC::ObjectDumper
+         object_trivial_dump_to_string(p_this, out_line);
+     }
+ 
++    auto get_property_path(void* p_this, bool with_type) -> std::wstring
++    {
++        FProperty* p_typed_this = static_cast<FProperty*>(p_this);
++
++        std::wstring property_class_name;
++
++        UObject* property_class = nullptr;
++        if (p_typed_this->IsA<FInterfaceProperty>())
++        {
++            FInterfaceProperty* object_property = static_cast<FInterfaceProperty*>(p_typed_this);
++            property_class = object_property->GetInterfaceClass();
++        }
++        if (p_typed_this->IsA<FClassProperty>())
++        {
++            FClassProperty* object_property = static_cast<FClassProperty*>(p_typed_this);
++            property_class = object_property->GetMetaClass();
++            if (property_class != NULL) property_class_name = property_class->GetPathName();
++        }
++        if (p_typed_this->IsA<FSoftClassProperty>())
++        {
++            FSoftClassProperty* object_property = static_cast<FSoftClassProperty*>(p_typed_this);
++            property_class = object_property->GetMetaClass();
++        }
++        if (p_typed_this->IsA<FSoftObjectProperty>())
++        {
++            FSoftObjectProperty* object_property = static_cast<FSoftObjectProperty*>(p_typed_this);
++            property_class = object_property->GetPropertyClass();
++        }
++
++        if (p_typed_this->IsA<FObjectProperty>() || p_typed_this->IsA<FAssetObjectProperty>())
++        {
++            /*FObjectProperty* object_property = static_cast<FObjectProperty*>(p_typed_this);
++            UClass* property_class = object_property->GetPropertyClass();
++            if (property_class != NULL)
++                property_class_name = property_class->GetPathName();*/
++            FObjectProperty* object_property = static_cast<FObjectProperty*>(p_typed_this);
++            property_class = object_property->GetPropertyClass();
++        }
++
++        if (p_typed_this->IsA<FStructProperty>())
++        {
++            FStructProperty* object_property = static_cast<FStructProperty*>(p_typed_this);
++            property_class = object_property->GetStruct();
++        }
++
++        if (p_typed_this->IsA<FByteProperty>())
++        {
++            FByteProperty* object_property = static_cast<FByteProperty*>(p_typed_this);
++            property_class = object_property->GetEnum();
++        }
++
++        if (p_typed_this->IsA<FEnumProperty>())
++        {
++            FEnumProperty* object_property = static_cast<FEnumProperty*>(p_typed_this);
++            property_class = object_property->GetEnum();
++        }
++
++        if (property_class != NULL)
++            if (with_type)
++                property_class_name = property_class->GetFullName();
++            else
++                property_class_name = property_class->GetPathName();
++
++        //if (p_typed_this->IsA<FInterfaceProperty>())
++        //{
++        //    FInterfaceProperty* object_property = static_cast<FInterfaceProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetInterfaceClass();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++        //if (p_typed_this->IsA<FClassProperty>())
++        //{
++        //    FClassProperty* object_property = static_cast<FClassProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetMetaClass();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++        //if (p_typed_this->IsA<FSoftClassProperty>())
++        //{
++        //    FSoftClassProperty* object_property = static_cast<FSoftClassProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetMetaClass();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++        //if (p_typed_this->IsA<FSoftObjectProperty>())
++        //{
++        //    FSoftObjectProperty* object_property = static_cast<FSoftObjectProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetPropertyClass();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++
++        //if (p_typed_this->IsA<FObjectProperty>() || p_typed_this->IsA<FAssetObjectProperty>())
++        //{
++        //    /*FObjectProperty* object_property = static_cast<FObjectProperty*>(p_typed_this);
++        //    UClass* property_class = object_property->GetPropertyClass();
++        //    if (property_class != NULL)
++        //        property_class_name = property_class->GetPathName();*/
++        //    FObjectProperty* object_property = static_cast<FObjectProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetPropertyClass();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++
++        //if (p_typed_this->IsA<FStructProperty>())
++        //{
++        //    FStructProperty* object_property = static_cast<FStructProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetStruct();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++
++        //if (p_typed_this->IsA<FByteProperty>())
++        //{
++        //    FByteProperty* object_property = static_cast<FByteProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetEnum();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++
++        //if (p_typed_this->IsA<FEnumProperty>())
++        //{
++        //    FEnumProperty* object_property = static_cast<FEnumProperty*>(p_typed_this);
++        //    auto property_class = object_property->GetEnum();
++        //    if (property_class != NULL) property_class_name = property_class->GetPathName();
++        //}
++
++        return property_class_name;
++
++    }
++
+     auto property_trivial_dump_to_string(void* p_this, std::wstring& out_line) -> void
+     {
+         FProperty* p_typed_this = static_cast<FProperty*>(p_this);
+ 
++        auto property_class = p_typed_this->GetClass();
++        if (Version::IsAtLeast(4, 25))
++        {
++            auto owner_class = p_typed_this->GetOwnerVariant(); // ScriptStruct
++            //auto Struct = p_typed_this->GetTypedOwner<UScriptStruct>();
++            auto owner_var = p_typed_this->GetOwnerVariant();
++            if (owner_var.IsUObject() && owner_var.ToUObject()->IsA<UScriptStruct>())
++            {
++                UScriptStruct* Struct = static_cast<UScriptStruct*>(owner_var.ToUObject());
++
++                // Struct->GetName();
++                auto class_name = property_class.GetName();
++                auto struct_name = Struct->GetPathName();
++                auto name = p_typed_this->GetName();
++                const std::wregex name_regex(L"([a-zA-Z0-9]+)_([0-9]+)_([a-fA-F0-9]{32})");
++                std::wsmatch pieces_match;
++                if (std::regex_match(name, pieces_match, name_regex))
++                {
++                    if (pieces_match.size() == 4)
++                    {
++                        auto friendly_name = pieces_match[1].str();
++                        auto name_id = pieces_match[2].str();
++                        auto name_guid = pieces_match[3].str();
++
++                        auto pos = struct_name.find_last_of('.');
++                        if (pos != std::wstring::npos)
++                        {
++                            auto dir = struct_name.substr(0, pos);
++                            auto file = struct_name.substr(pos+1);
++
++                            std::wstring property_class_name;
++
++                            if (p_typed_this->IsA<FArrayProperty>())
++                            {
++                                FArrayProperty* object_property = static_cast<FArrayProperty*>(p_typed_this);
++                                auto  property_class = object_property->GetInner()->GetClass();
++                                property_class_name = property_class.GetName() + L" " + get_property_path(object_property->GetInner(), false);
++                            }
++                            else if (p_typed_this->IsA<FMapProperty>())
++                            {
++                                FMapProperty* object_property = static_cast<FMapProperty*>(p_typed_this);
++                                FProperty* key_property = object_property->GetKeyProp();
++                                FProperty* value_property = object_property->GetValueProp();
++                                class_name = get_property_path(key_property, true);
++                                property_class_name = get_property_path(value_property, true);
++                            }
++                            else if (p_typed_this->IsA<FSetProperty>())
++                            {
++                                FSetProperty* object_property = static_cast<FSetProperty*>(p_typed_this);
++                                FProperty* element_prop = object_property->GetElementProp();
++                                property_class_name = get_property_path(element_prop, true);
++                            }
++                            else
++                                property_class_name = get_property_path(p_typed_this, false);
++                            
++
++                            out_line.append(fmt::format(L"STRUCT_METADATA {};{};{};{};{};{};{}\n", 
++                                file, class_name, property_class_name, friendly_name, name_id, name_guid, dir));
++                        }
++                    }
++
++
++                    /*out_line.append(fmt::format(L"STRUCT_METADATA parent: \"{}\" class:\"{}\" name: \"{}\"\n",
++                                                Struct->GetFullName(),
++                                                property_class.GetName(),
++                                                p_typed_this->GetName()));*/
++                }
++                
++            }
++        }
++
+         out_line.append(fmt::format(L"[{:016X}] ", reinterpret_cast<uintptr_t>(p_this)));
+         out_line.append(p_typed_this->GetFullName());
+         out_line.append(fmt::format(L" [o: {:X}] ", p_typed_this->GetOffset_Internal()));
+ 
+-        auto property_class = p_typed_this->GetClass();
++        auto superClass = property_class.GetSuperClass();
++        //auto nativeclass = RC::UEGenerator::get_native_class_name(FField::tou , false);
++        out_line.append(fmt::format(L"class: {}, super: {} ", property_class.GetName(), superClass.GetName()));
+         out_line.append(fmt::format(L"[n: {:X}] [c: {:016X}]", p_typed_this->GetFName().GetComparisonIndex(), property_class.HashObject()));
+ 
+         if (Version::IsAtLeast(4, 25))
+         {
+-            out_line.append(fmt::format(L" [owr: {:016X}]", p_typed_this->GetOwnerVariant().HashObject()));
++            //auto owner_class = p_typed_this->GetOwnerVariant(); // ScriptStruct
++            //auto Struct = p_typed_this->GetTypedOwner<UScriptStruct>();
++            //auto owner_var = p_typed_this->GetOwnerVariant();
++            //if (owner_var.IsUObject() && owner_var.ToUObject()->IsA<UScriptStruct>())
++            //{
++            //    // Struct->GetName();
++            //    property_class.GetName();
++            //    Struct->GetPathName();
++            //    p_typed_this->GetName();
++            //    out_line.append(fmt::format(L"STRUCT_METADATA parent: \"{}\" class:\"{}\" name: \"{}\"",
++            //                                Struct->GetPathName(),
++            //                                property_class.GetName(),
++            //                                p_typed_this->GetName()));
++
++            //}
++            //auto own = p_typed_this->GetTypedOwner();
++            auto property_class = p_typed_this->GetClass();     // ObjectProperty
++            /*if (owner_class->IsChildOf<UScriptStruct>())
++            {
++
++            }*/
++            auto owner_var = p_typed_this->GetOwnerVariant();
++            /*if (owner_var.IsUObject())
++            {
++
++                out_line.append(fmt::format(L"owner: {}", owner_var.ToUObject()->GetName()));
++            }*/
++
++            if (p_typed_this->IsA<FObjectProperty>() || p_typed_this->IsA<FAssetObjectProperty>())
++            {
++                FObjectProperty* object_property = static_cast<FObjectProperty*>(p_typed_this);
++                UClass* property_class = object_property->GetPropertyClass();
++
++                
++                if (property_class != NULL)
++                {
++                    const std::wstring property_class_name = RC::UEGenerator::get_native_class_name(property_class, false);
++                    out_line.append(fmt::format(L"pclass: {} ", property_class->GetPathName()));
++                }
++
++            }
++
++            out_line.append(
++                    fmt::format(L"[owr: {:016X}]", p_typed_this->GetOwnerVariant().HashObject()));
+         }
+     }
+ 
