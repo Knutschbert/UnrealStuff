@@ -1,4 +1,7 @@
 ## (WIP) Import UserDefinedStructs
+## NYI
+- doesn't support Map properties
+- Doesn't support struct hierarchy
 
 ## UE4SS.diff
 - apply to UE4SS (7b5ff7deb6ae3c578ff620c3ca8560adee2ff9c5)
