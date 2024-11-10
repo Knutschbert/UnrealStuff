@@ -3,8 +3,9 @@
 2. run `fmodel_tkgui.py` for GUI version or set `json_path` in `fmodel_oo.py` and run it
 
 Creates png files:
-1x 16-bit Heightmap, 1x RGBE Heightmap
-1x 8bit Weightmap per layer
+- 1x 16-bit Heightmap
+- 1x RGBE Heightmap
+- 1x 8bit Weightmap per layer
 
 ## requirements (10.11.24)
 ```bash
