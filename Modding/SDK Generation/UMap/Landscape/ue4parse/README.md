@@ -46,7 +46,7 @@ I:.
         Texture2D_1.png
 ```
 
-## Vizualization
+## Visualization
 When launching without `--noviz False` produces following additional files:
 #### VIZ_<Map_Name>_weight_height_overlay.png
 Combined heightmap + weightmap layers. Arbitrary colors

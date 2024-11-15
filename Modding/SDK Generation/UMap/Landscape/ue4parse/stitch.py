@@ -148,6 +148,8 @@ class LandscapeStitcher:
         comp_locs_steps = comp_locs / lp.ComponentSizeQuads
         min, max = np.min(comp_locs_steps, axis=0).astype(np.uint32), np.max(comp_locs_steps, axis=0).astype(np.uint32)
         min_global, max_start = min * tile_sz, max * tile_sz
+        
+        canvas_sz = (max_start - min_global) + tile_sz
         ###
 
         # get layerinfo to layer name map
@@ -174,8 +176,8 @@ class LandscapeStitcher:
             ComponentSizeQuads = lp.ComponentSizeQuads,
             SubsectionSizeQuads = lp.SubsectionSizeQuads,
             NumSubsections = lp.NumSubsections,
-            NumComponents = tovector2d(*tuple((max_start/sqds).astype(int))),
-            HeightmapSize = tovector2d(*tuple(max_start)),  ## add square size
+            NumComponents = tovector2d(*tuple((canvas_sz/tile_sz).astype(int))),
+            HeightmapSize = tovector2d(*tuple(canvas_sz)),  ## add square size
             RootOffset = tovector2d(*min_global),
             RelativeLocation = root_component.Properties.RelativeLocation,
             RelativeRotation = root_component.Properties.RelativeRotation,
@@ -404,9 +406,7 @@ class LandscapeStitcher:
 
         loaded_data = {}
         for jsfile in filelist:
-            # if 'TournamentGrounds_Terrain_02' not in jsfile: continue
-            # if 'Demo_Menu' not in jsfile: continue
-            # if 'Raid_' not in jsfile or 'BRAWL' in jsfile: continue
+            # if 'Bulwark_Landscap' not in jsfile: continue
             if '_LandscapeInfo.json' in jsfile: continue # ignore output json
             loaded_data[jsfile] = LandscapeStitcher.load_js_data(jsfile)[1:]
 
@@ -446,8 +446,7 @@ class LandscapeStitcher:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="UE4 Asset processing script.")
-    parser.add_argument('--input', '-i', type=str, default=r'I:\UNCN\CUE4Parse_fork2\LandscapeExtractor\bin\Debug\net8.0\output', help='Base directory with LandscapeExtractor processed files')
-    # parser.add_argument('--input', '-i', type=str, default=r'I:\UNCN\UnrealStuff\Modding\SDK Generation\UMap\Landscape\output_fresh', help='Base directory with LandscapeExtractor processed files')
+    parser.add_argument('--input', '-i', type=str, required=True, help='Base directory with LandscapeExtractor processed files')
     parser.add_argument('--preview', '-p', type=str, default=False, help='Preview heightmaps during processing')
     parser.add_argument('--noviz', type=str, default=False, help='Don\'t produce visualization output (normalized, rgbe, tiling)')
     args = parser.parse_args()
