@@ -1,0 +1,6 @@
+{
+    "explorer.sortOrder": "modified",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/typings"
+    ]
+}

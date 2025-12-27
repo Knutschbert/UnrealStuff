@@ -1,0 +1,16 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class FUniqueNetId:
+    def __init__(self, type: 'str', contents: 'str') -> None: ...
+    Type: 'str' = ...
+    Contents: 'str' = ...
+
+class FUniqueNetIdRepl(CUE4Parse.UE4.IUStruct):
+    def __init__(self, Ar: 'CUE4Parse.UE4.Readers.FArchive') -> None: ...
+    UniqueNetId: 'CUE4Parse.UE4.Objects.Engine.GameFramework.FUniqueNetId' = ...
+

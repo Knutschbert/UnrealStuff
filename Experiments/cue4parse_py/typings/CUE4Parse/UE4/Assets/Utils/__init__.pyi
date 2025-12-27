@@ -1,0 +1,26 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class PayloadType(enum.Enum):
+    UBULK = ...
+    UPTNL = ...
+
+class StructFallback(System.Attribute):
+    def __init__(self) -> None: ...
+
+class StructFallbackUtil:
+    ObjectMapper: 'CUE4Parse.UE4.Assets.Utils.ObjectMapper' = ...
+    @staticmethod
+    def MapToClass(fallback: 'CUE4Parse.UE4.Assets.Objects.FStructFallback', type: 'System.Type') -> 'Any': ...
+
+class ObjectMapper:
+    def Map(self, src: 'CUE4Parse.UE4.Assets.Exports.IPropertyHolder', dst: 'Any') -> None: ...
+
+class DefaultObjectMapper(CUE4Parse.UE4.Assets.Utils.ObjectMapper):
+    def __init__(self) -> None: ...
+    def Map(self, src: 'CUE4Parse.UE4.Assets.Exports.IPropertyHolder', dst: 'Any') -> None: ...
+

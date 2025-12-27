@@ -1,0 +1,16 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class FOW2ObjectProperty(CUE4Parse.UE4.Assets.Objects.Properties.ObjectProperty):
+    def __init__(self, Ar: 'CUE4Parse.GameTypes.OuterWorlds2.Readers.FOW2ObjectsArchive', type: 'CUE4Parse.UE4.Assets.Objects.Properties.ReadType') -> None: ...
+
+class FOW2FPropertyTag(CUE4Parse.UE4.Assets.Objects.FPropertyTag):
+    def __init__(self, Ar: 'CUE4Parse.UE4.Assets.Readers.FAssetArchive') -> None: ...
+    Objects: 'CUE4Parse.GameTypes.OuterWorlds2.Objects.FPropertryDataObjectContainer' = ...
+    bHasVersion: 'bool' = ...
+    bIsDefault: 'bool' = ...
+

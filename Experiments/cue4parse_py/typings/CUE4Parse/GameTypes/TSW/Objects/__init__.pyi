@@ -1,0 +1,19 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class FDistanceQuantity(System.ValueType, CUE4Parse.UE4.IUStruct):
+    def __init__(self, InValue: 'float') -> None: ...
+    Value: 'float' = ...
+
+class FMassQuantity(System.ValueType, CUE4Parse.UE4.IUStruct):
+    def __init__(self, InValue: 'float') -> None: ...
+    Value: 'float' = ...
+
+class FSpeedQuantity(System.ValueType, CUE4Parse.UE4.IUStruct):
+    def __init__(self, InValue: 'float') -> None: ...
+    Value: 'float' = ...
+

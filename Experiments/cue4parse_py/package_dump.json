@@ -1,0 +1,4730 @@
+{
+  "Summary": {
+    "Tag": "9E2A83C1",
+    "PackageFlags": "PKG_FilterEditorOnly",
+    "TotalHeaderSize": 26403,
+    "NameOffset": 333,
+    "NameCount": 418,
+    "ImportOffset": 13191,
+    "ImportCount": 178,
+    "ExportOffset": 18175,
+    "ExportCount": 60,
+    "BulkDataStartOffset": 58689,
+    "FileVersionUE": "ADDED_PACKAGE_OWNER",
+    "FileVersionLicenseeUE": "VER_LIC_NONE | VER_LIC_NONE",
+    "CustomVersions": [
+      {
+        "Key": "12F88B9F-88754AFC-A67CD90C-383ABD29",
+        "Version": 43
+      },
+      {
+        "Key": "375EC13C-06E448FB-B50084F0-262A717E",
+        "Version": 4
+      },
+      {
+        "Key": "601D1886-AC644F84-AA16D3DE-0DEAC7D6",
+        "Version": 31
+      },
+      {
+        "Key": "9C54D522-A8264FBE-94210746-61B482D0",
+        "Version": 30
+      },
+      {
+        "Key": "B0D832E4-1F894F0D-ACCF7EB7-36FD4AA2",
+        "Version": 10
+      },
+      {
+        "Key": "CFFC743F-43B04480-939114DF-171D2073",
+        "Version": 37
+      },
+      {
+        "Key": "E4B068ED-F49442E9-A231DA0B-2E46BB41",
+        "Version": 38
+      }
+    ],
+    "bUnversioned": false
+  },
+  "NameMap": [
+    "/Engine/EngineSounds/Normal_Attack",
+    "/Engine/EngineSounds/SFX",
+    "/Game/Mods/AgMods/FlashBlades/FB_AttachedActor",
+    "/Game/Mods/AgMods/FlashBlades/FB_BladeComponent",
+    "/Game/Mods/AgMods/FlashBlades/FB_BladeComponent_Client",
+    "/Game/Mods/AgMods/FlashBlades/FB_CharacterComponent",
+    "/Game/Mods/AgMods/FlashBlades/FB_Interface",
+    "/Game/Mods/AgMods/FlashBlades/FB_InventoryItemComponent",
+    "/Game/Mods/AgMods/FlashBlades/FB_SettingsSaveGame",
+    "/Game/Mods/AgMods/FlashBlades/FB_SettingsWidget",
+    "/Game/Mods/AgMods/FlashBlades/FlashBlades",
+    "/Game/Mods/AgMods/FlashBlades/FlashBladesAttenuation",
+    "/Game/Mods/AgMods/FlashBlades/NewModularSynthPresetBank",
+    "/Game/Mods/AgMods/FlashBlades/NewSoundConcurrency",
+    "/Game/Mods/ArgonSDK/Mods/ArgonSDKModBase",
+    "/Game/Mods/ArgonSDK/Mods/BPL_Unchained",
+    "/Game/UI/Textures/Icons/KillFeed/Suicide",
+    "/Game/UI/Textures/Icons/WeaponIcons/SquareIcons/Symbol_Stick",
+    "/Script/CoreUObject",
+    "/Script/Engine",
+    "/Script/InputCore",
+    "/Script/Synthesis",
+    "/Script/TBL",
+    "/Script/UMG",
+    "AbilityInvocation",
+    "Activate",
+    "Actor",
+    "ActorComponent",
+    "ActorMap",
+    "ActorMap_Value",
+    "Add_IntInt",
+    "AddBladeComponent",
+    "AddComponent",
+    "AddItemComponents",
+    "Animation",
+    "ApplyToItem",
+    "ApplyToItem_New",
+    "ArgonSDKModBase_C",
+    "ArgumentName",
+    "ArgumentValue",
+    "ArgumentValueFloat",
+    "ArgumentValueGender",
+    "ArgumentValueInt",
+    "ArgumentValueType",
+    "Array_Get",
+    "Array_Length",
+    "ArrayProperty",
+    "AsyncActionHandleSaveGame",
+    "AsyncLoadGameFromSlot",
+    "AsyncSaveGameToSlot",
+    "AttachedActor",
+    "AttenuationOverrides",
+    "AttenuationSettings",
+    "AttenuationShapeExtents",
+    "Audio_Disable_GEN_VARIABLE",
+    "Audio_Enable_GEN_VARIABLE",
+    "Audio_Loop_GEN_VARIABLE",
+    "AudioComponent",
+    "Author",
+    "AutoReceiveInput",
+    "bAlt",
+    "bAlwaysRelevant",
+    "bAutoActivate",
+    "bClientside",
+    "bCmd",
+    "bConsumeInput",
+    "bCtrl",
+    "BeginDeferredActorSpawnFromClass",
+    "bEquipped",
+    "bExecuteWhenPaused",
+    "BillboardComponent",
+    "BlueprintGeneratedClass",
+    "BlueprintInputKeyDelegateBinding",
+    "BlueprintMapLibrary",
+    "BooleanAND",
+    "BoolProperty",
+    "bOverrideParentBinding",
+    "BPL_Unchained_C",
+    "bReplicates",
+    "BroadcastLocalizedChat",
+    "bShift",
+    "bSuccess",
+    "bUseSynth",
+    "ByteProperty",
+    "CallFunc_Add_IntInt_ReturnValue",
+    "CallFunc_AddComponent_ReturnValue",
+    "CallFunc_Array_Get_Item",
+    "CallFunc_Array_Length_ReturnValue",
+    "CallFunc_AsyncLoadGameFromSlot_ReturnValue",
+    "CallFunc_AsyncSaveGameToSlot_ReturnValue",
+    "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+    "CallFunc_BooleanAND_ReturnValue",
+    "CallFunc_Concat_StrStr_ReturnValue",
+    "CallFunc_Conv_ByteToInt_ReturnValue",
+    "CallFunc_Conv_IntToByte_ReturnValue",
+    "CallFunc_Conv_IntToString_ReturnValue",
+    "CallFunc_Conv_NameToText_ReturnValue",
+    "CallFunc_CreateSaveGameObject_ReturnValue",
+    "CallFunc_DoesSaveGameExist_ReturnValue",
+    "CallFunc_FinishSpawningActor_ReturnValue",
+    "CallFunc_Format_ReturnValue",
+    "CallFunc_GetActorColor_Value",
+    "CallFunc_GetActorFaction_ReturnValue",
+    "CallFunc_GetAllActorsOfClass_OutActors",
+    "CallFunc_GetComponentByClass_ReturnValue",
+    "CallFunc_GetDisplayName_ReturnValue",
+    "CallFunc_GetEnumeratorUserFriendlyName_ReturnValue",
+    "CallFunc_GetEnumeratorValueFromIndex_ReturnValue",
+    "CallFunc_GetEquippedItemBySlot_ReturnValue",
+    "CallFunc_GetInventory_ReturnValue",
+    "CallFunc_GetInventoryItemBySlot_ReturnValue",
+    "CallFunc_GetOwner_ReturnValue",
+    "CallFunc_GetPlayerController_ReturnValue",
+    "CallFunc_GetPlayerDebugName_ReturnValue",
+    "CallFunc_GetPlayerName_ReturnValue",
+    "CallFunc_GetTBLGameState_ReturnValue",
+    "CallFunc_GetValidValue_ReturnValue",
+    "CallFunc_IsValid_ReturnValue",
+    "CallFunc_Less_IntInt_ReturnValue",
+    "CallFunc_LoadGameFromSlot_ReturnValue",
+    "CallFunc_MakeLiteralInt_ReturnValue",
+    "CallFunc_MakeTransform_ReturnValue",
+    "CallFunc_Map_Find_ReturnValue",
+    "CallFunc_Map_Find_Value",
+    "CallFunc_RandomIntegerInRange_ReturnValue",
+    "CallFunc_SaveGameToSlot_ReturnValue",
+    "Character",
+    "Class",
+    "Color",
+    "Completed",
+    "Completed_236D49014F52577372755186A0C774AF",
+    "Completed_3B33997C4C351C37D40759A15DEDCE0C",
+    "ComponentClass",
+    "ComponentTemplate",
+    "ComponentTemplates",
+    "Concat_StrStr",
+    "ConcurrencySet",
+    "Context",
+    "Controller",
+    "Conv_ByteToInt",
+    "Conv_IntToByte",
+    "Conv_IntToString",
+    "Conv_NameToText",
+    "CreateSaveGameObject",
+    "CurrentItem",
+    "CustomEvent",
+    "CustomizationContext",
+    "Default__ArgonSDKModBase_C",
+    "Default__AudioComponent",
+    "Default__BillboardComponent",
+    "Default__BlueprintGeneratedClass",
+    "Default__BlueprintMapLibrary",
+    "Default__BPL_Unchained_C",
+    "Default__FB_AttachedActor_C",
+    "Default__FB_BladeComponent_C",
+    "Default__FB_BladeComponent_Client_C",
+    "Default__FB_CharacterComponent_C",
+    "Default__FB_Interface_C",
+    "Default__FB_InventoryItemComponent_C",
+    "Default__FB_SettingsSaveGame_C",
+    "Default__FB_SettingsWidget_C",
+    "Default__FlashBlades_C",
+    "Default__Function",
+    "Default__InheritableComponentHandler",
+    "Default__InputKeyDelegateBinding",
+    "Default__KismetArrayLibrary",
+    "Default__ModularSynthComponent",
+    "Default__SceneComponent",
+    "Default__SCS_Node",
+    "Default__SimpleConstructionScript",
+    "Default__TBLOnlineLibrary",
+    "DefaultSceneRoot",
+    "DefaultSceneRoot_GEN_VARIABLE",
+    "DefaultSceneRootNode",
+    "DelegateFunction",
+    "DelegateProperty",
+    "DoesSaveGameExist",
+    "DynamicBindingObjects",
+    "EAutoReceiveInput",
+    "EAutoReceiveInput::Player0",
+    "EFaction",
+    "EInputEvent",
+    "EInventoryItemSlot",
+    "EnableBlade",
+    "Engine",
+    "EntryPoint",
+    "Enum",
+    "EnumProperty",
+    "ERadialVOMenuPage",
+    "EventName",
+    "ExecuteUbergraph_FlashBlades",
+    "Faction",
+    "FalloffDistance",
+    "FB_AttachedActor_C",
+    "FB_BladeComponent_C",
+    "FB_BladeComponent_Client_C",
+    "FB_CharacterComponent_C",
+    "FB_Interface_C",
+    "FB_InventoryItemComponent_C",
+    "FB_SettingsSaveGame_C",
+    "FB_SettingsWidget_C",
+    "FFASelectedColor",
+    "FinishSpawningActor",
+    "FlashBlades_C",
+    "FlashBladesAttenuation",
+    "FloatProperty",
+    "Format",
+    "FormatArgumentData",
+    "Function",
+    "FunctionNameToBind",
+    "GameplayStatics",
+    "GetActorColor",
+    "GetActorFaction",
+    "GetAllActorsOfClass",
+    "GetComponentByClass",
+    "GetDisplayName",
+    "GetEnumeratorUserFriendlyName",
+    "GetEnumeratorValueFromIndex",
+    "GetEquippedItemBySlot",
+    "GetInventory",
+    "GetInventoryItemBySlot",
+    "GetOwner",
+    "GetPlayerController",
+    "GetPlayerDebugName",
+    "GetPlayerName",
+    "GetTBLGameState",
+    "GetValidValue",
+    "Guid",
+    "HighlightSynth_GEN_VARIABLE",
+    "IE_Pressed",
+    "InController",
+    "IngameModMenuWidgets",
+    "InheritableComponentHandler",
+    "InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent",
+    "InputChord",
+    "InputKeyDelegateBinding",
+    "InputKeyDelegateBindings",
+    "InputKeyEvent",
+    "InterfaceProperty",
+    "InternalVariableName",
+    "IntProperty",
+    "Inventory",
+    "InventoryItem",
+    "InventoryItemEquipped__DelegateSignature",
+    "Invocation",
+    "IsAddedToInventory",
+    "IsValid",
+    "Item",
+    "ItemEquipped",
+    "K2_AttachToActor",
+    "K2_DestroyComponent",
+    "K2Node_CreateDelegate_OutputDelegate",
+    "K2Node_CustomEvent_Animation",
+    "K2Node_CustomEvent_bSuccess",
+    "K2Node_CustomEvent_Character",
+    "K2Node_CustomEvent_Context",
+    "K2Node_CustomEvent_Controller",
+    "K2Node_CustomEvent_EventName",
+    "K2Node_CustomEvent_InController",
+    "K2Node_CustomEvent_InventoryItem",
+    "K2Node_CustomEvent_Invocation",
+    "K2Node_CustomEvent_IsAddedToInventory",
+    "K2Node_CustomEvent_Item",
+    "K2Node_CustomEvent_MeshComponent",
+    "K2Node_CustomEvent_PlayerState",
+    "K2Node_CustomEvent_SaveGame",
+    "K2Node_CustomEvent_Spawner",
+    "K2Node_CustomEvent_VOMenuPage",
+    "K2Node_DynamicCast_AsFB_Interface",
+    "K2Node_DynamicCast_AsFB_Settings_Save_Game",
+    "K2Node_DynamicCast_AsTBLPlayer_Controller",
+    "K2Node_DynamicCast_bSuccess",
+    "K2Node_Event_bEquipped",
+    "K2Node_Event_Item",
+    "K2Node_InputKeyEvent_Key",
+    "K2Node_MakeArray_Array",
+    "K2Node_MakeStruct_FormatArgumentData",
+    "K2Node_Select_Default",
+    "Key",
+    "KeyName",
+    "KismetArrayLibrary",
+    "KismetMathLibrary",
+    "KismetNodeHelperLibrary",
+    "KismetStringLibrary",
+    "KismetSystemLibrary",
+    "KismetTextLibrary",
+    "Less_IntInt",
+    "LoadGameFromSlot",
+    "MakeLiteralInt",
+    "MakeTransform",
+    "Map_Add",
+    "Map_Find",
+    "MapProperty",
+    "MeshComponent",
+    "Meshes",
+    "MiddleMouseButton",
+    "ModActor",
+    "ModName",
+    "ModularSynth1_GEN_VARIABLE",
+    "ModularSynth_GEN_VARIABLE",
+    "ModularSynthComponent",
+    "ModularSynthPresetBank",
+    "ModVersion",
+    "NameProperty",
+    "NewCharacterSpawned__DelegateSignature",
+    "NewModularSynthPresetBank",
+    "NewSoundConcurrency",
+    "NODE_AddAudioComponent-0",
+    "NODE_AddBillboardComponent-0",
+    "NODE_AddBillboardComponent-1",
+    "NODE_AddFB_BladeComponent-0",
+    "NODE_AddFB_BladeComponent_Client-0",
+    "NODE_AddFB_BladeComponent_Client-1",
+    "NODE_AddFB_BladeComponent_Client-2",
+    "NODE_AddFB_CharacterComponent-0",
+    "NODE_AddFB_InventoryItemComponent-0",
+    "NODE_AddFB_InventoryItemComponent-1",
+    "NODE_AddFB_InventoryItemComponent-2",
+    "NODE_AddFB_InventoryItemComponent-3",
+    "NODE_AddFB_InventoryItemComponent-4",
+    "NODE_AddModularSynthComponent-0",
+    "NODE_AddModularSynthComponent-1",
+    "None",
+    "Normal_Attack",
+    "Object",
+    "ObjectProperty",
+    "OnAddedToInventoryChanged",
+    "OnAddedToInventoryChanged__DelegateSignature",
+    "OnAddedToInventoryChanged_Event",
+    "OnAsyncHandleSaveGame__DelegateSignature",
+    "OnCachedMeshApplied_Event",
+    "OnCharacterEquippedItemsChanged",
+    "OnCharacterEquippedItemsChanged__DelegateSignature",
+    "OnCharacterSpawned",
+    "OnCustomizationApplied_Event",
+    "OnInventoryItemEquipped",
+    "OnInventoryItemUnequipped",
+    "OnInventoryItemUnequipped_Event",
+    "OnPlayEmote_Event",
+    "OnPlayerStateAdded_Event",
+    "OnPlayerStateReplicated",
+    "OnPlayerStateUniqueIdReplicated_Event",
+    "OnPossessed_Event",
+    "OnProjectileBeginPlay",
+    "OnProjectileBeginPlay__DelegateSignature",
+    "OnProjectileBeginPlay_Event",
+    "OnProjectileStarted__DelegateSignature",
+    "OnRepCharacterPlayerState__DelegateSignature",
+    "OnSpawnerSpawnedCharacter_Event",
+    "Owner",
+    "Package",
+    "Pawn",
+    "PlayerController",
+    "PlayerState",
+    "PointerToUberGraphFrame",
+    "PointLight1_GEN_VARIABLE",
+    "PointLightComponent",
+    "ProcessCharacter",
+    "ProjectileStarted",
+    "ProjectileStarted_Event",
+    "RandomIntegerInRange",
+    "ReceiveBeginPlay",
+    "RelativeLocation",
+    "ReloadConfig",
+    "SaveGame",
+    "SaveGameToSlot",
+    "SayChatType",
+    "SceneComponent",
+    "ScreenSize",
+    "ScriptStruct",
+    "SCS_Node",
+    "SetBoolPropertyByName",
+    "SetBytePropertyByName",
+    "SetIntPropertyByName",
+    "SetObjectPropertyByName",
+    "SetProperty",
+    "SetRandomColorClient",
+    "SetSynthState",
+    "Settings",
+    "SFX",
+    "ShowLocalChat",
+    "ShowPropertyNamed",
+    "SimpleConstructionScript",
+    "SkeletalMeshComponent",
+    "SoundAttenuation",
+    "SoundAttenuationSettings",
+    "SoundClass",
+    "SoundConcurrency",
+    "Spawner",
+    "Sprite",
+    "StrProperty",
+    "StructProperty",
+    "Suicide",
+    "Symbol_Stick",
+    "SynthBank",
+    "TBLCharacter",
+    "TBLGameState",
+    "TBLOnlineLibrary",
+    "TBLPlayerController",
+    "TBLPlayerState",
+    "TBLSystemLibrary",
+    "Temp_bool_Variable",
+    "Temp_int_Array_Index_Variable",
+    "Temp_int_Loop_Counter_Variable",
+    "Temp_int_Variable",
+    "Temp_object_Variable",
+    "Temp_struct_Variable",
+    "TextProperty",
+    "Texture2D",
+    "Transform",
+    "UberGraphFrame",
+    "UberGraphFunction",
+    "UnderlyingType",
+    "Value",
+    "VariableGuid",
+    "Vector",
+    "VOMenuPage",
+    "WidgetBlueprintGeneratedClass"
+  ],
+  "ImportMap": [
+    {
+      "ObjectName": "ArgonSDKModBase_C'Default__ArgonSDKModBase_C'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.5"
+    },
+    {
+      "ObjectName": "AudioComponent'FB_AttachedActor_C:Audio_Disable_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.18"
+    },
+    {
+      "ObjectName": "AudioComponent'FB_AttachedActor_C:Audio_Enable_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.19"
+    },
+    {
+      "ObjectName": "AudioComponent'FB_AttachedActor_C:Audio_Loop_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.20"
+    },
+    {
+      "ObjectName": "AudioComponent'Default__AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "BillboardComponent'Default__BillboardComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_AttachedActor_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.16"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.10"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_Client_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.20"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_CharacterComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.4"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_Interface_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_Interface.2"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_InventoryItemComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.22"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'FB_SettingsSaveGame_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.0"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'ArgonSDKModBase_C'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.4"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'BPL_Unchained_C'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/BPL_Unchained.4"
+    },
+    {
+      "ObjectName": "BlueprintGeneratedClass'Default__BlueprintGeneratedClass'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "BlueprintMapLibrary'Default__BlueprintMapLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "BPL_Unchained_C'Default__BPL_Unchained_C'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/BPL_Unchained.5"
+    },
+    {
+      "ObjectName": "Class'Function'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "Class'Actor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'ActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'AsyncActionHandleSaveGame'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'AudioComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'BillboardComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'BlueprintGeneratedClass'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'BlueprintMapLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'Controller'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'GameplayStatics'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'InheritableComponentHandler'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'InputKeyDelegateBinding'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetArrayLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetMathLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetNodeHelperLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetStringLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetSystemLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'KismetTextLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'Pawn'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'PlayerState'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'SaveGame'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'SCS_Node'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'SimpleConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'SkeletalMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Class'ModularSynthComponent'",
+      "ObjectPath": "/Script/Synthesis"
+    },
+    {
+      "ObjectName": "Class'ModularSynthPresetBank'",
+      "ObjectPath": "/Script/Synthesis"
+    },
+    {
+      "ObjectName": "Class'AbilityInvocation'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'Inventory'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'InventoryItem'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'Spawner'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLCharacter'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLGameState'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLOnlineLibrary'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLPlayerController'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLPlayerState'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Class'TBLSystemLibrary'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnAsyncHandleSaveGame__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "DelegateFunction'InventoryItemEquipped__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'NewCharacterSpawned__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnAddedToInventoryChanged__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnCharacterEquippedItemsChanged__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnProjectileBeginPlay__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnProjectileStarted__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "DelegateFunction'OnRepCharacterPlayerState__DelegateSignature'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Enum'EFaction'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Enum'EInventoryItemSlot'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Enum'ERadialVOMenuPage'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "FB_AttachedActor_C'Default__FB_AttachedActor_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.17"
+    },
+    {
+      "ObjectName": "FB_BladeComponent_C'Default__FB_BladeComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.11"
+    },
+    {
+      "ObjectName": "FB_BladeComponent_Client_C'Default__FB_BladeComponent_Client_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.21"
+    },
+    {
+      "ObjectName": "FB_CharacterComponent_C'Default__FB_CharacterComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.5"
+    },
+    {
+      "ObjectName": "FB_Interface_C'Default__FB_Interface_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_Interface.3"
+    },
+    {
+      "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+    },
+    {
+      "ObjectName": "FB_SettingsSaveGame_C'Default__FB_SettingsSaveGame_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.1"
+    },
+    {
+      "ObjectName": "FB_SettingsWidget_C'Default__FB_SettingsWidget_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsWidget.7"
+    },
+    {
+      "ObjectName": "Function'ArgonSDKModBase_C:ReceiveBeginPlay'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.1"
+    },
+    {
+      "ObjectName": "Function'Default__Function'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "Function'Actor:AddComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'Actor:GetComponentByClass'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'Actor:K2_AttachToActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'ActorComponent:GetOwner'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'ActorComponent:K2_DestroyComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'AsyncActionHandleSaveGame:AsyncLoadGameFromSlot'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'AsyncActionHandleSaveGame:AsyncSaveGameToSlot'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'BlueprintMapLibrary:Map_Add'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'BlueprintMapLibrary:Map_Find'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:BeginDeferredActorSpawnFromClass'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:CreateSaveGameObject'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:DoesSaveGameExist'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:FinishSpawningActor'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:GetAllActorsOfClass'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:GetPlayerController'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:LoadGameFromSlot'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'GameplayStatics:SaveGameToSlot'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetArrayLibrary:Array_Get'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetArrayLibrary:Array_Length'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:Add_IntInt'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:BooleanAND'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:Conv_ByteToInt'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:Conv_IntToByte'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:Less_IntInt'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:MakeTransform'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetMathLibrary:RandomIntegerInRange'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetNodeHelperLibrary:GetEnumeratorUserFriendlyName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetNodeHelperLibrary:GetEnumeratorValueFromIndex'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetNodeHelperLibrary:GetValidValue'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetStringLibrary:Concat_StrStr'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetStringLibrary:Conv_IntToString'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:GetDisplayName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:IsValid'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:MakeLiteralInt'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:SetBoolPropertyByName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:SetBytePropertyByName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:SetIntPropertyByName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetSystemLibrary:SetObjectPropertyByName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetTextLibrary:Conv_NameToText'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'KismetTextLibrary:Format'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'PlayerState:GetPlayerName'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Function'Inventory:GetEquippedItemBySlot'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'Inventory:GetInventoryItemBySlot'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLCharacter:GetInventory'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLOnlineLibrary:BroadcastLocalizedChat'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLPlayerController:SayChatType'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLSystemLibrary:GetActorFaction'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLSystemLibrary:GetPlayerDebugName'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Function'TBLSystemLibrary:GetTBLGameState'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "InheritableComponentHandler'Default__InheritableComponentHandler'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "InputKeyDelegateBinding'Default__InputKeyDelegateBinding'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "KismetArrayLibrary'Default__KismetArrayLibrary'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "ModularSynthComponent'FB_AttachedActor_C:HighlightSynth_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.21"
+    },
+    {
+      "ObjectName": "ModularSynthComponent'FB_AttachedActor_C:ModularSynth1_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.22"
+    },
+    {
+      "ObjectName": "ModularSynthComponent'FB_AttachedActor_C:ModularSynth_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.23"
+    },
+    {
+      "ObjectName": "ModularSynthComponent'FB_AttachedActor_C:NODE_AddModularSynthComponent-0'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.24"
+    },
+    {
+      "ObjectName": "ModularSynthComponent'Default__ModularSynthComponent'",
+      "ObjectPath": "/Script/Synthesis"
+    },
+    {
+      "ObjectName": "ModularSynthPresetBank'NewModularSynthPresetBank'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewModularSynthPresetBank.0"
+    },
+    {
+      "ObjectName": "Package'/Engine/EngineSounds/Normal_Attack'",
+      "ObjectPath": "/Engine/EngineSounds/Normal_Attack"
+    },
+    {
+      "ObjectName": "Package'/Engine/EngineSounds/SFX'",
+      "ObjectPath": "/Engine/EngineSounds/SFX"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_AttachedActor'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_AttachedActor"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_BladeComponent'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_BladeComponent"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_BladeComponent_Client'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_BladeComponent_Client"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_CharacterComponent'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_CharacterComponent"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_Interface'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_Interface"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_InventoryItemComponent'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_InventoryItemComponent"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_SettingsSaveGame'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_SettingsSaveGame"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FB_SettingsWidget'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FB_SettingsWidget"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/FlashBladesAttenuation'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/FlashBladesAttenuation"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/NewModularSynthPresetBank'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/NewModularSynthPresetBank"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/AgMods/FlashBlades/NewSoundConcurrency'",
+      "ObjectPath": "/Game/Mods/AgMods/FlashBlades/NewSoundConcurrency"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/ArgonSDK/Mods/ArgonSDKModBase'",
+      "ObjectPath": "/Game/Mods/ArgonSDK/Mods/ArgonSDKModBase"
+    },
+    {
+      "ObjectName": "Package'/Game/Mods/ArgonSDK/Mods/BPL_Unchained'",
+      "ObjectPath": "/Game/Mods/ArgonSDK/Mods/BPL_Unchained"
+    },
+    {
+      "ObjectName": "Package'/Game/UI/Textures/Icons/KillFeed/Suicide'",
+      "ObjectPath": "/Game/UI/Textures/Icons/KillFeed/Suicide"
+    },
+    {
+      "ObjectName": "Package'/Game/UI/Textures/Icons/WeaponIcons/SquareIcons/Symbol_Stick'",
+      "ObjectPath": "/Game/UI/Textures/Icons/WeaponIcons/SquareIcons/Symbol_Stick"
+    },
+    {
+      "ObjectName": "Package'/Script/CoreUObject'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "Package'/Script/Engine'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "Package'/Script/InputCore'",
+      "ObjectPath": "/Script/InputCore"
+    },
+    {
+      "ObjectName": "Package'/Script/Synthesis'",
+      "ObjectPath": "/Script/Synthesis"
+    },
+    {
+      "ObjectName": "Package'/Script/TBL'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "PointLightComponent'FB_AttachedActor_C:PointLight1_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.25"
+    },
+    {
+      "ObjectName": "SceneComponent'FB_AttachedActor_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.26"
+    },
+    {
+      "ObjectName": "SceneComponent'ArgonSDKModBase_C:DefaultSceneRoot_GEN_VARIABLE'",
+      "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.6"
+    },
+    {
+      "ObjectName": "SceneComponent'Default__SceneComponent'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "ScriptStruct'Color'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "ScriptStruct'Transform'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    {
+      "ObjectName": "ScriptStruct'FormatArgumentData'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "ScriptStruct'Key'",
+      "ObjectPath": "/Script/InputCore"
+    },
+    {
+      "ObjectName": "ScriptStruct'CustomizationContext'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "SCS_Node'Default__SCS_Node'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "SimpleConstructionScript'Default__SimpleConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    {
+      "ObjectName": "SoundAttenuation'FlashBladesAttenuation'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBladesAttenuation.0"
+    },
+    {
+      "ObjectName": "SoundClass'Normal_Attack'",
+      "ObjectPath": "/Engine/EngineSounds/Normal_Attack"
+    },
+    {
+      "ObjectName": "SoundClass'SFX'",
+      "ObjectPath": "/Engine/EngineSounds/SFX"
+    },
+    {
+      "ObjectName": "SoundConcurrency'NewSoundConcurrency'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewSoundConcurrency.0"
+    },
+    {
+      "ObjectName": "TBLOnlineLibrary'Default__TBLOnlineLibrary'",
+      "ObjectPath": "/Script/TBL"
+    },
+    {
+      "ObjectName": "Texture2D'Suicide'",
+      "ObjectPath": "TBL/Content/UI/Textures/Icons/KillFeed/Suicide.0"
+    },
+    {
+      "ObjectName": "Texture2D'Symbol_Stick'",
+      "ObjectPath": "TBL/Content/UI/Textures/Icons/WeaponIcons/SquareIcons/Symbol_Stick.0"
+    },
+    {
+      "ObjectName": "WidgetBlueprintGeneratedClass'FB_SettingsWidget_C'",
+      "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsWidget.6"
+    }
+  ],
+  "ExportMap": [
+    {
+      "Type": "Function",
+      "Name": "ExecuteUbergraph_FlashBlades",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "IntProperty",
+          "Name": "EntryPoint",
+          "Flags": "RF_Public",
+          "ElementSize": 4,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerState'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.10"
+          }
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetPlayerDebugName_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetDisplayName_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_Concat_StrStr_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "Temp_bool_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_Concat_StrStr_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_SaveGame",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_CustomEvent_bSuccess",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnAsyncHandleSaveGame__DelegateSignature'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "Temp_bool_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Temp_object_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AsyncLoadGameFromSlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'AsyncActionHandleSaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ArrayProperty",
+          "Name": "K2Node_MakeArray_Array",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "PropertyFlags": "ReferenceParm",
+          "Inner": {
+            "Type": "StructProperty",
+            "Name": "K2Node_MakeArray_Array",
+            "Flags": "RF_Public",
+            "ElementSize": 64,
+            "Struct": {
+              "ObjectName": "ScriptStruct'FormatArgumentData'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "CallFunc_MakeTransform_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_1",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'InventoryItemEquipped__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_2",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnRepCharacterPlayerState__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Spawner_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Spawner'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_7",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InController",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Controller'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_3",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnProjectileBeginPlay__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "EnumProperty",
+          "Name": "K2Node_CustomEvent_VOMenuPage_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum'ERadialVOMenuPage'",
+            "ObjectPath": "/Script/TBL"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetPlayerController_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerController'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_4",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnProjectileStarted__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_6",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Controller",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Controller'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.10"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_5",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnAddedToInventoryChanged__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_5",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_Client_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.20"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Event_Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_Event_bEquipped",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PlayerState_4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "Temp_bool_Variable_2",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_LoadGameFromSlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PlayerState_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_SaveGame_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_CustomEvent_bSuccess_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_3",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetPlayerDebugName_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_6",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnAsyncHandleSaveGame__DelegateSignature'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetTBLGameState_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLGameState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "EnumProperty",
+          "Name": "CallFunc_GetActorFaction_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum'EFaction'",
+            "ObjectPath": "/Script/TBL"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_7",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'InventoryItemEquipped__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetEnumeratorUserFriendlyName_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_CreateSaveGameObject_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Item_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_CustomEvent_IsAddedToInventory_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_DoesSaveGameExist_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "Temp_bool_Variable_3",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InventoryItem_4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Select_Default",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetOwner_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_SaveGameToSlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_4",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_CharacterComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.4"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_5",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "InterfaceProperty",
+          "Name": "K2Node_DynamicCast_AsFB_Interface",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_Interface_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_Interface.2"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_DynamicCast_AsFB_Settings_Save_Game",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_SettingsSaveGame_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.0"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_6",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_BooleanAND_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InventoryItem_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_2",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Item_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_CustomEvent_IsAddedToInventory",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Item_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InventoryItem_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Add_IntInt_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_Conv_IntToByte_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_GetEnumeratorValueFromIndex_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Conv_ByteToInt_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Array_Index_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Variable_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PlayerState_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_Conv_IntToByte_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetPlayerName_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_GetValidValue_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetInventoryItemBySlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_InventoryItemComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.22"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_7",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetDisplayName_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_InventoryItemComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.22"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_8",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_PlayerState_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerState'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Loop_Counter_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_8",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'NewCharacterSpawned__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_CharacterComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.4"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_BeginDeferredActorSpawnFromClass_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetInventory_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'Inventory'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_FinishSpawningActor_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_AttachedActor_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.16"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetEquippedItemBySlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Variable_2",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Temp_int_Variable_3",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_Conv_IntToByte_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_GetValidValue_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_Conv_IntToByte_ReturnValue_3",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetInventoryItemBySlot_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ByteProperty",
+          "Name": "CallFunc_GetEnumeratorValueFromIndex_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": null
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Conv_ByteToInt_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_CreateSaveGameObject_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "NameProperty",
+          "Name": "K2Node_CustomEvent_EventName",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Invocation",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'AbilityInvocation'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "TextProperty",
+          "Name": "CallFunc_Conv_NameToText_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 24
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_DoesSaveGameExist_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "TextProperty",
+          "Name": "CallFunc_Format_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 24
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Select_Default_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AsyncSaveGameToSlot_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'AsyncActionHandleSaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_DynamicCast_AsFB_Settings_Save_Game_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_SettingsSaveGame_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.0"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess_2",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_9",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_10",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_BooleanAND_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "K2Node_CustomEvent_Context",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'CustomizationContext'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_MeshComponent",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_GetDisplayName_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Array_Length_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "StrProperty",
+          "Name": "CallFunc_Conv_IntToString_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InventoryItem_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_InventoryItemComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.22"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_5",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_InventoryItemComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.22"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetOwner_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_11",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_12",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_GetActorColor_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_13",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "NameProperty",
+          "Name": "K2Node_CustomEvent_Animation",
+          "Flags": "RF_Public",
+          "ElementSize": 12
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "DelegateProperty",
+          "Name": "K2Node_CreateDelegate_OutputDelegate_9",
+          "Flags": "RF_Public",
+          "ElementSize": 20,
+          "SignatureFunction": {
+            "ObjectName": "DelegateFunction'OnCharacterEquippedItemsChanged__DelegateSignature'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "TextProperty",
+          "Name": "CallFunc_Conv_NameToText_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 24
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "K2Node_MakeStruct_FormatArgumentData",
+          "Flags": "RF_Public",
+          "ElementSize": 64,
+          "Struct": {
+            "ObjectName": "ScriptStruct'FormatArgumentData'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ArrayProperty",
+          "Name": "K2Node_MakeArray_Array_1",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "PropertyFlags": "ReferenceParm",
+          "Inner": {
+            "Type": "StructProperty",
+            "Name": "K2Node_MakeArray_Array_1",
+            "Flags": "RF_Public",
+            "ElementSize": 64,
+            "Struct": {
+              "ObjectName": "ScriptStruct'FormatArgumentData'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_3",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "TextProperty",
+          "Name": "CallFunc_Format_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 24
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue_3",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_Client_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.20"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_4",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue_4",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'BillboardComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "K2Node_InputKeyEvent_Key",
+          "Flags": "RF_Public",
+          "ElementSize": 32,
+          "Struct": {
+            "ObjectName": "ScriptStruct'Key'",
+            "ObjectPath": "/Script/InputCore"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable_5",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_MakeLiteralInt_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue_5",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_Client_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.20"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_Less_IntInt_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "EnumProperty",
+          "Name": "K2Node_CustomEvent_VOMenuPage",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "Enum": {
+            "ObjectName": "Enum'ERadialVOMenuPage'",
+            "ObjectPath": "/Script/TBL"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetOwner_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Spawner",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'Spawner'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_CustomEvent_Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_14",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue_6",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_CharacterComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.4"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetPlayerController_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerController'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue_15",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_DynamicCast_AsTBLPlayer_Controller",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerController'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess_3",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "InterfaceProperty",
+          "Name": "K2Node_DynamicCast_AsFB_Interface_1",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "InterfaceClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_Interface_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_Interface.2"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "K2Node_DynamicCast_bSuccess_4",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_MakeLiteralInt_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "ArrayProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 16,
+          "PropertyFlags": "ReferenceParm",
+          "Inner": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+            "Flags": "RF_Public",
+            "ElementSize": 8,
+            "PropertyClass": {
+              "ObjectName": "BlueprintGeneratedClass'FB_AttachedActor_C'",
+              "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.16"
+            }
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_Array_Get_Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_AttachedActor_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.16"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Array_Length_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_4",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerState'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ReloadConfig",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnSpawnerSpawnedCharacter_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Spawner",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'Spawner'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_3",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "EnumProperty",
+          "Name": "VOMenuPage",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "Enum": {
+            "ObjectName": "Enum'ERadialVOMenuPage'",
+            "ObjectPath": "/Script/TBL"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnInventoryItemUnequipped_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_5",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "NameProperty",
+          "Name": "Animation",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ApplyToItem_New",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnCachedMeshApplied_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "MeshComponent",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm | InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "Class'SkeletalMeshComponent'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnCustomizationApplied_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "StructProperty",
+          "Name": "Context",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm | BlueprintVisible | BlueprintReadOnly | Parm | OutParm | ReferenceParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'CustomizationContext'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_8",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Invocation",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'AbilityInvocation'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_6",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "NameProperty",
+          "Name": "EventName",
+          "Flags": "RF_Public",
+          "ElementSize": 12,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_12",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_11",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_2",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerState'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnPlayerStateAdded_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnProjectileBeginPlay_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ProjectileStarted_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_10",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "IsAddedToInventory",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ApplyToItem",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InventoryItem",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnAddedToInventoryChanged_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "IsAddedToInventory",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ProcessCharacter",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "AddItemComponents",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnPlayerStateUniqueIdReplicated_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnPlayerStateAdded_Event_1",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLPlayerState'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ItemEquipped",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Item",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'InventoryItem'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "bEquipped",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "ReceiveBeginPlay",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Super": {
+        "ObjectName": "Function'ArgonSDKModBase_C:ReceiveBeginPlay'",
+        "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.1"
+      },
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "SuperStruct": {
+        "ObjectName": "Function'ArgonSDKModBase_C:ReceiveBeginPlay'",
+        "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.1"
+      },
+      "FunctionFlags": "FUNC_Event | FUNC_Protected | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_1",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_9",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Controller",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'Controller'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnPlayEmote_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "EnumProperty",
+          "Name": "VOMenuPage",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "Enum": {
+            "ObjectName": "Enum'ERadialVOMenuPage'",
+            "ObjectPath": "/Script/TBL"
+          },
+          "UnderlyingProp": {
+            "Type": "ByteProperty",
+            "Name": "UnderlyingType",
+            "Flags": "RF_Public",
+            "ElementSize": 1,
+            "Enum": null
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "OnPossessed_Event_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "InController",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'Controller'",
+            "ObjectPath": "/Script/Engine"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "CustomEvent_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Spawner",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'Spawner'",
+            "ObjectPath": "/Script/TBL"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Character",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'TBLCharacter'",
+            "ObjectPath": "/Script/TBL"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "Completed_3B33997C4C351C37D40759A15DEDCE0C",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "SaveGame",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "bSuccess",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "Completed_236D49014F52577372755186A0C774AF",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "SaveGame",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'SaveGame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "bSuccess",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "StructProperty",
+          "Name": "Key",
+          "Flags": "RF_Public",
+          "ElementSize": 32,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Key'",
+            "ObjectPath": "/Script/InputCore"
+          }
+        }
+      ],
+      "FunctionFlags": "FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "AddBladeComponent",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "PlayerState",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'PlayerState'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "StructProperty",
+          "Name": "Temp_struct_Variable",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyFlags": "ConstParm",
+          "Struct": {
+            "ObjectName": "ScriptStruct'Transform'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetComponentByClass_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.10"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_AddComponent_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "InstancedReference",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_BladeComponent_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.10"
+          }
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_IsValid_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "Function",
+      "Name": "GetActorColor",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'Function'",
+      "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+      "ChildProperties": [
+        {
+          "Type": "ObjectProperty",
+          "Name": "Owner",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm",
+          "PropertyClass": {
+            "ObjectName": "Class'Actor'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "Value",
+          "Flags": "RF_Public",
+          "ElementSize": 4,
+          "PropertyFlags": "Parm | OutParm"
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Map_Find_Value",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_Map_Find_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_RandomIntegerInRange_ReturnValue",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "IntProperty",
+          "Name": "CallFunc_Map_Find_Value_1",
+          "Flags": "RF_Public",
+          "ElementSize": 4
+        },
+        {
+          "Type": "BoolProperty",
+          "Name": "CallFunc_Map_Find_ReturnValue_1",
+          "Flags": "RF_Public",
+          "ElementSize": 1,
+          "FieldSize": 1,
+          "ByteOffset": 0,
+          "ByteMask": 1,
+          "FieldMask": 255,
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        }
+      ],
+      "FunctionFlags": "FUNC_Public | FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+    },
+    {
+      "Type": "BlueprintGeneratedClass",
+      "Name": "FlashBlades_C",
+      "Class": "UScriptClass'BlueprintGeneratedClass'",
+      "Super": {
+        "ObjectName": "BlueprintGeneratedClass'ArgonSDKModBase_C'",
+        "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.4"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "DynamicBindingObjects": [
+          {
+            "ObjectName": "InputKeyDelegateBinding'FlashBlades_C:InputKeyDelegateBinding_0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.54"
+          }
+        ],
+        "ComponentTemplates": [
+          {
+            "ObjectName": "FB_BladeComponent_C'FlashBlades_C:NODE_AddFB_BladeComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.43"
+          },
+          {
+            "ObjectName": "FB_BladeComponent_Client_C'FlashBlades_C:NODE_AddFB_BladeComponent_Client-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.44"
+          },
+          {
+            "ObjectName": "FB_BladeComponent_Client_C'FlashBlades_C:NODE_AddFB_BladeComponent_Client-1'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.45"
+          },
+          {
+            "ObjectName": "BillboardComponent'FlashBlades_C:NODE_AddBillboardComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.41"
+          },
+          {
+            "ObjectName": "BillboardComponent'FlashBlades_C:NODE_AddBillboardComponent-1'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.42"
+          },
+          {
+            "ObjectName": "FB_BladeComponent_Client_C'FlashBlades_C:NODE_AddFB_BladeComponent_Client-2'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.46"
+          },
+          {
+            "ObjectName": "FB_InventoryItemComponent_C'FlashBlades_C:NODE_AddFB_InventoryItemComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.48"
+          },
+          {
+            "ObjectName": "FB_InventoryItemComponent_C'FlashBlades_C:NODE_AddFB_InventoryItemComponent-1'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.49"
+          },
+          {
+            "ObjectName": "FB_InventoryItemComponent_C'FlashBlades_C:NODE_AddFB_InventoryItemComponent-2'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.50"
+          },
+          {
+            "ObjectName": "FB_InventoryItemComponent_C'FlashBlades_C:NODE_AddFB_InventoryItemComponent-3'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.51"
+          },
+          {
+            "ObjectName": "AudioComponent'FlashBlades_C:NODE_AddAudioComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.40"
+          },
+          {
+            "ObjectName": "ModularSynthComponent'FlashBlades_C:NODE_AddModularSynthComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.55"
+          },
+          {
+            "ObjectName": "ModularSynthComponent'FlashBlades_C:NODE_AddModularSynthComponent-1'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.56"
+          },
+          {
+            "ObjectName": "FB_CharacterComponent_C'FlashBlades_C:NODE_AddFB_CharacterComponent-0'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.47"
+          },
+          {
+            "ObjectName": "FB_InventoryItemComponent_C'FlashBlades_C:NODE_AddFB_InventoryItemComponent-4'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.52"
+          }
+        ],
+        "SimpleConstructionScript": {
+          "ObjectName": "SimpleConstructionScript'FlashBlades_C:SimpleConstructionScript_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.59"
+        },
+        "InheritableComponentHandler": {
+          "ObjectName": "InheritableComponentHandler'FlashBlades_C:InheritableComponentHandler'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.53"
+        },
+        "UberGraphFunction": {
+          "ObjectName": "Function'FlashBlades_C:ExecuteUbergraph_FlashBlades'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.0"
+        }
+      },
+      "SuperStruct": {
+        "ObjectName": "BlueprintGeneratedClass'ArgonSDKModBase_C'",
+        "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.4"
+      },
+      "Children": [
+        {
+          "ObjectName": "Function'FlashBlades_C:GetActorColor'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.37"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:AddBladeComponent'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.36"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.35"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:Completed_236D49014F52577372755186A0C774AF'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.34"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:Completed_3B33997C4C351C37D40759A15DEDCE0C'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.33"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.32"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnPossessed_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.31"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnPlayEmote_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.30"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_9'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.29"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_1'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.28"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ReceiveBeginPlay'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.27"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ItemEquipped'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.26"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateAdded_Event_1'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.25"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateUniqueIdReplicated_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.24"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:AddItemComponents'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.23"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ProcessCharacter'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.22"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnAddedToInventoryChanged_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.21"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.20"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ApplyToItem'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.19"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_10'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.18"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ProjectileStarted_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.17"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnProjectileBeginPlay_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.16"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateAdded_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.15"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_2'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.14"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_11'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.13"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_12'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.12"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_6'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.11"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_8'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.10"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnCustomizationApplied_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.9"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnCachedMeshApplied_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.8"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ApplyToItem_New'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.7"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_5'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.6"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnInventoryItemUnequipped_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.5"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_3'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.4"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:OnSpawnerSpawnedCharacter_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.3"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ReloadConfig'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.2"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_4'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.1"
+        },
+        {
+          "ObjectName": "Function'FlashBlades_C:ExecuteUbergraph_FlashBlades'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.0"
+        }
+      ],
+      "ChildProperties": [
+        {
+          "Type": "StructProperty",
+          "Name": "UberGraphFrame",
+          "Flags": "RF_Public | RF_LoadCompleted",
+          "ElementSize": 16,
+          "PropertyFlags": "Transient | DuplicateTransient",
+          "Struct": {
+            "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        {
+          "Type": "MapProperty",
+          "Name": "ActorMap",
+          "Flags": "RF_Public | RF_LoadCompleted",
+          "ElementSize": 80,
+          "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+          "KeyProp": {
+            "Type": "ObjectProperty",
+            "Name": "ActorMap",
+            "Flags": "RF_Public",
+            "ElementSize": 8,
+            "PropertyClass": {
+              "ObjectName": "Class'Actor'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ValueProp": {
+            "Type": "IntProperty",
+            "Name": "ActorMap_Value",
+            "Flags": "RF_Public",
+            "ElementSize": 4
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "SynthBank",
+          "Flags": "RF_Public | RF_LoadCompleted",
+          "ElementSize": 8,
+          "PropertyFlags": "Edit | BlueprintVisible",
+          "PropertyClass": {
+            "ObjectName": "Class'ModularSynthPresetBank'",
+            "ObjectPath": "/Script/Synthesis"
+          }
+        },
+        {
+          "Type": "ObjectProperty",
+          "Name": "Settings",
+          "Flags": "RF_Public | RF_LoadCompleted",
+          "ElementSize": 8,
+          "PropertyFlags": "Edit | BlueprintVisible",
+          "PropertyClass": {
+            "ObjectName": "BlueprintGeneratedClass'FB_SettingsSaveGame_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.0"
+          }
+        }
+      ],
+      "FuncMap": {
+        "ExecuteUbergraph_FlashBlades": {
+          "ObjectName": "Function'FlashBlades_C:ExecuteUbergraph_FlashBlades'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.0"
+        },
+        "CustomEvent_4": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_4'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.1"
+        },
+        "ReloadConfig": {
+          "ObjectName": "Function'FlashBlades_C:ReloadConfig'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.2"
+        },
+        "OnSpawnerSpawnedCharacter_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnSpawnerSpawnedCharacter_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.3"
+        },
+        "CustomEvent_3": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_3'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.4"
+        },
+        "OnInventoryItemUnequipped_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnInventoryItemUnequipped_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.5"
+        },
+        "CustomEvent_5": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_5'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.6"
+        },
+        "ApplyToItem_New": {
+          "ObjectName": "Function'FlashBlades_C:ApplyToItem_New'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.7"
+        },
+        "OnCachedMeshApplied_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnCachedMeshApplied_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.8"
+        },
+        "OnCustomizationApplied_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnCustomizationApplied_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.9"
+        },
+        "CustomEvent_8": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_8'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.10"
+        },
+        "CustomEvent_6": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_6'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.11"
+        },
+        "CustomEvent_12": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_12'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.12"
+        },
+        "CustomEvent_11": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_11'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.13"
+        },
+        "CustomEvent_2": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_2'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.14"
+        },
+        "OnPlayerStateAdded_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateAdded_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.15"
+        },
+        "OnProjectileBeginPlay_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnProjectileBeginPlay_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.16"
+        },
+        "ProjectileStarted_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:ProjectileStarted_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.17"
+        },
+        "CustomEvent_10": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_10'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.18"
+        },
+        "ApplyToItem": {
+          "ObjectName": "Function'FlashBlades_C:ApplyToItem'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.19"
+        },
+        "CustomEvent": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.20"
+        },
+        "OnAddedToInventoryChanged_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnAddedToInventoryChanged_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.21"
+        },
+        "ProcessCharacter": {
+          "ObjectName": "Function'FlashBlades_C:ProcessCharacter'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.22"
+        },
+        "AddItemComponents": {
+          "ObjectName": "Function'FlashBlades_C:AddItemComponents'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.23"
+        },
+        "OnPlayerStateUniqueIdReplicated_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateUniqueIdReplicated_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.24"
+        },
+        "OnPlayerStateAdded_Event_1": {
+          "ObjectName": "Function'FlashBlades_C:OnPlayerStateAdded_Event_1'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.25"
+        },
+        "ItemEquipped": {
+          "ObjectName": "Function'FlashBlades_C:ItemEquipped'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.26"
+        },
+        "ReceiveBeginPlay": {
+          "ObjectName": "Function'FlashBlades_C:ReceiveBeginPlay'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.27"
+        },
+        "CustomEvent_1": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_1'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.28"
+        },
+        "CustomEvent_9": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_9'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.29"
+        },
+        "OnPlayEmote_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnPlayEmote_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.30"
+        },
+        "OnPossessed_Event_0": {
+          "ObjectName": "Function'FlashBlades_C:OnPossessed_Event_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.31"
+        },
+        "CustomEvent_0": {
+          "ObjectName": "Function'FlashBlades_C:CustomEvent_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.32"
+        },
+        "Completed_3B33997C4C351C37D40759A15DEDCE0C": {
+          "ObjectName": "Function'FlashBlades_C:Completed_3B33997C4C351C37D40759A15DEDCE0C'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.33"
+        },
+        "Completed_236D49014F52577372755186A0C774AF": {
+          "ObjectName": "Function'FlashBlades_C:Completed_236D49014F52577372755186A0C774AF'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.34"
+        },
+        "InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent_0": {
+          "ObjectName": "Function'FlashBlades_C:InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.35"
+        },
+        "AddBladeComponent": {
+          "ObjectName": "Function'FlashBlades_C:AddBladeComponent'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.36"
+        },
+        "GetActorColor": {
+          "ObjectName": "Function'FlashBlades_C:GetActorColor'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.37"
+        }
+      },
+      "ClassFlags": "CLASS_Config | CLASS_Optional | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+      "ClassWithin": {
+        "ObjectName": "Class'Object'",
+        "ObjectPath": "/Script/CoreUObject"
+      },
+      "ClassConfigName": "Engine",
+      "Interfaces": [
+        {
+          "Class": {
+            "ObjectName": "BlueprintGeneratedClass'FB_Interface_C'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_Interface.2"
+          },
+          "PointerOffset": 0,
+          "bImplementedByK2": true
+        }
+      ],
+      "bCooked": true,
+      "ClassDefaultObject": {
+        "ObjectName": "FlashBlades_C'Default__FlashBlades_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.39"
+      }
+    },
+    {
+      "Type": "FlashBlades_C",
+      "Name": "Default__FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C'",
+      "Template": {
+        "ObjectName": "ArgonSDKModBase_C'Default__ArgonSDKModBase_C'",
+        "ObjectPath": "TBL/Content/Mods/ArgonSDK/Mods/ArgonSDKModBase.5"
+      },
+      "Flags": "RF_Public | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "UberGraphFrame": {},
+        "SynthBank": {
+          "ObjectName": "ModularSynthPresetBank'NewModularSynthPresetBank'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewModularSynthPresetBank.0"
+        },
+        "ModName": "FlashBlades",
+        "ModVersion": "v0.0.3",
+        "Author": "Nihi for ArgonSDK",
+        "IngameModMenuWidgets": [
+          {
+            "Key": "Settings",
+            "Value": {
+              "ObjectName": "WidgetBlueprintGeneratedClass'FB_SettingsWidget_C'",
+              "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsWidget.6"
+            }
+          }
+        ],
+        "bClientside": true,
+        "bAlwaysRelevant": true,
+        "bReplicates": true,
+        "AutoReceiveInput": "EAutoReceiveInput::Player0"
+      }
+    },
+    {
+      "Type": "AudioComponent",
+      "Name": "NODE_AddAudioComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'AudioComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "AttenuationSettings": {
+          "ObjectName": "SoundAttenuation'FlashBladesAttenuation'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBladesAttenuation.0"
+        },
+        "ConcurrencySet": [
+          {
+            "ObjectName": "SoundConcurrency'NewSoundConcurrency'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewSoundConcurrency.0"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "BillboardComponent",
+      "Name": "NODE_AddBillboardComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'BillboardComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "Sprite": {
+          "ObjectName": "Texture2D'Symbol_Stick'",
+          "ObjectPath": "TBL/Content/UI/Textures/Icons/WeaponIcons/SquareIcons/Symbol_Stick.0"
+        },
+        "RelativeLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 200.0
+        }
+      }
+    },
+    {
+      "Type": "BillboardComponent",
+      "Name": "NODE_AddBillboardComponent-1",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'BillboardComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "Sprite": {
+          "ObjectName": "Texture2D'Suicide'",
+          "ObjectPath": "TBL/Content/UI/Textures/Icons/KillFeed/Suicide.0"
+        },
+        "ScreenSize": 0.001,
+        "RelativeLocation": {
+          "X": 0.0,
+          "Y": 0.0,
+          "Z": 200.0
+        }
+      }
+    },
+    {
+      "Type": "FB_BladeComponent_C",
+      "Name": "NODE_AddFB_BladeComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.FB_BladeComponent_C'",
+      "Template": {
+        "ObjectName": "FB_BladeComponent_C'Default__FB_BladeComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.11"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_BladeComponent_Client_C",
+      "Name": "NODE_AddFB_BladeComponent_Client-0",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C'",
+      "Template": {
+        "ObjectName": "FB_BladeComponent_Client_C'Default__FB_BladeComponent_Client_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.21"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_BladeComponent_Client_C",
+      "Name": "NODE_AddFB_BladeComponent_Client-1",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C'",
+      "Template": {
+        "ObjectName": "FB_BladeComponent_Client_C'Default__FB_BladeComponent_Client_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.21"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_BladeComponent_Client_C",
+      "Name": "NODE_AddFB_BladeComponent_Client-2",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C'",
+      "Template": {
+        "ObjectName": "FB_BladeComponent_Client_C'Default__FB_BladeComponent_Client_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.21"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_CharacterComponent_C",
+      "Name": "NODE_AddFB_CharacterComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.FB_CharacterComponent_C'",
+      "Template": {
+        "ObjectName": "FB_CharacterComponent_C'Default__FB_CharacterComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.5"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_InventoryItemComponent_C",
+      "Name": "NODE_AddFB_InventoryItemComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C'",
+      "Template": {
+        "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_InventoryItemComponent_C",
+      "Name": "NODE_AddFB_InventoryItemComponent-1",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C'",
+      "Template": {
+        "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_InventoryItemComponent_C",
+      "Name": "NODE_AddFB_InventoryItemComponent-2",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C'",
+      "Template": {
+        "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_InventoryItemComponent_C",
+      "Name": "NODE_AddFB_InventoryItemComponent-3",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C'",
+      "Template": {
+        "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "FB_InventoryItemComponent_C",
+      "Name": "NODE_AddFB_InventoryItemComponent-4",
+      "Outer": "FlashBlades_C",
+      "Class": "BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C'",
+      "Template": {
+        "ObjectName": "FB_InventoryItemComponent_C'Default__FB_InventoryItemComponent_C'",
+        "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.23"
+      },
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "InheritableComponentHandler",
+      "Name": "InheritableComponentHandler",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'InheritableComponentHandler'",
+      "Flags": "RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "InputKeyDelegateBinding",
+      "Name": "InputKeyDelegateBinding_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'InputKeyDelegateBinding'",
+      "Flags": "RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "InputKeyDelegateBindings": [
+          {
+            "InputChord": {
+              "Key": {
+                "KeyName": "MiddleMouseButton"
+              },
+              "bShift": false,
+              "bCtrl": false,
+              "bAlt": false,
+              "bCmd": false
+            },
+            "InputKeyEvent": "IE_Pressed",
+            "FunctionNameToBind": "InpActEvt_MiddleMouseButton_K2Node_InputKeyEvent_0",
+            "bConsumeInput": false,
+            "bExecuteWhenPaused": false,
+            "bOverrideParentBinding": true
+          }
+        ]
+      }
+    },
+    {
+      "Type": "ModularSynthComponent",
+      "Name": "NODE_AddModularSynthComponent-0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'ModularSynthComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "AttenuationOverrides": {
+          "AttenuationShapeExtents": {
+            "X": 100.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "FalloffDistance": 400.0
+        },
+        "ConcurrencySet": [
+          {
+            "ObjectName": "SoundConcurrency'NewSoundConcurrency'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewSoundConcurrency.0"
+          }
+        ],
+        "SoundClass": {
+          "ObjectName": "SoundClass'Normal_Attack'",
+          "ObjectPath": "/Engine/EngineSounds/Normal_Attack"
+        },
+        "bAutoActivate": true
+      }
+    },
+    {
+      "Type": "ModularSynthComponent",
+      "Name": "NODE_AddModularSynthComponent-1",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'ModularSynthComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "AttenuationOverrides": {
+          "AttenuationShapeExtents": {
+            "X": 100.0,
+            "Y": 0.0,
+            "Z": 0.0
+          },
+          "FalloffDistance": 400.0
+        },
+        "ConcurrencySet": [
+          {
+            "ObjectName": "SoundConcurrency'NewSoundConcurrency'",
+            "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/NewSoundConcurrency.0"
+          }
+        ],
+        "SoundClass": {
+          "ObjectName": "SoundClass'SFX'",
+          "ObjectPath": "/Engine/EngineSounds/SFX"
+        },
+        "bAutoActivate": true
+      }
+    },
+    {
+      "Type": "SceneComponent",
+      "Name": "DefaultSceneRoot_GEN_VARIABLE",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'SceneComponent'",
+      "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+    },
+    {
+      "Type": "SCS_Node",
+      "Name": "SCS_Node_0",
+      "Outer": "SimpleConstructionScript_0",
+      "Class": "UScriptClass'SCS_Node'",
+      "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "ComponentClass": {
+          "ObjectName": "Class'SceneComponent'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "ComponentTemplate": {
+          "ObjectName": "SceneComponent'FlashBlades_C:DefaultSceneRoot_GEN_VARIABLE'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.57"
+        },
+        "VariableGuid": "A0630D1F-4ED7B743-C6191288-AA159D3F",
+        "InternalVariableName": "DefaultSceneRoot"
+      }
+    },
+    {
+      "Type": "SimpleConstructionScript",
+      "Name": "SimpleConstructionScript_0",
+      "Outer": "FlashBlades_C",
+      "Class": "UScriptClass'SimpleConstructionScript'",
+      "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+      "Properties": {
+        "DefaultSceneRootNode": {
+          "ObjectName": "SCS_Node'FlashBlades_C:SimpleConstructionScript_0.SCS_Node_0'",
+          "ObjectPath": "TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.58"
+        }
+      }
+    }
+  ],
+  "Decompile": {
+    "Default__FlashBlades_C": "class AFlashBlades_C : public AArgonSDKModBase_C\r\n{\r\npublic:\r\n    TArray<class UInputKeyDelegateBinding*> DynamicBindingObjects = {\r\n        \"InputKeyDelegateBinding'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:InputKeyDelegateBinding_0'\"\r\n    };\r\n    TArray<class UFB_InventoryItemComponent_C*> ComponentTemplates = {\r\n        \"FB_BladeComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_BladeComponent-0'\",\r\n        \"FB_BladeComponent_Client_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_BladeComponent_Client-0'\",\r\n        \"FB_BladeComponent_Client_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_BladeComponent_Client-1'\",\r\n        \"BillboardComponent'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddBillboardComponent-0'\",\r\n        \"BillboardComponent'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddBillboardComponent-1'\",\r\n        \"FB_BladeComponent_Client_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_BladeComponent_Client-2'\",\r\n        \"FB_InventoryItemComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_InventoryItemComponent-0'\",\r\n        \"FB_InventoryItemComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_InventoryItemComponent-1'\",\r\n        \"FB_InventoryItemComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_InventoryItemComponent-2'\",\r\n        \"FB_InventoryItemComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_InventoryItemComponent-3'\",\r\n        \"AudioComponent'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddAudioComponent-0'\",\r\n        \"ModularSynthComponent'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddModularSynthComponent-0'\",\r\n        \"ModularSynthComponent'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddModularSynthComponent-1'\",\r\n        \"FB_CharacterComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_CharacterComponent-0'\",\r\n        \"FB_InventoryItemComponent_C'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:NODE_AddFB_InventoryItemComponent-4'\"\r\n    };\r\n    class USimpleConstructionScript* SimpleConstructionScript = \"SimpleConstructionScript'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:SimpleConstructionScript_0'\";\r\n    class UInheritableComponentHandler* InheritableComponentHandler = \"InheritableComponentHandler'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:InheritableComponentHandler'\";\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C:ExecuteUbergraph_FlashBlades'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    class UModularSynthPresetBank* SynthBank = \"ModularSynthPresetBank'TBL/Content/Mods/AgMods/FlashBlades/NewModularSynthPresetBank.NewModularSynthPresetBank'\";\r\n    FString ModName = \"FlashBlades\";\r\n    FString ModVersion = \"v0.0.3\";\r\n    FString Author = \"Nihi for ArgonSDK\";\r\n    TMap<, > IngameModMenuWidgets = {\r\n    \r\n    };\r\n    bool bClientside = true;\r\n    bool bAlwaysRelevant = true;\r\n    bool bReplicates = true;\r\n    enum EAutoReceiveInput AutoReceiveInput = EAutoReceiveInput::Player0;\r\n    TMap<class UActor*, int> ActorMap;\r\n    class UFB_SettingsSaveGame_C* Settings = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_SettingsSaveGame.FB_SettingsSaveGame_C';\r\n\r\n};",
+    "NODE_AddFB_BladeComponent-0": "class AFB_BladeComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    int32 NumReplicatedProperties = 2;\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent.FB_BladeComponent_C:ExecuteUbergraph_FB_BladeComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    bool bReplicates = true;\r\n    bool bAutoActivate = true;\r\n    class UTBLPlayerState* OwnerState = Class'/Script/TBL.TBLPlayerState';\r\n\r\n};",
+    "NODE_AddFB_BladeComponent_Client-0": "class AFB_BladeComponent_Client_C : public AActorComponent\r\n{\r\npublic:\r\n    int32 NumReplicatedProperties = 2;\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C:ExecuteUbergraph_FB_BladeComponent_Client'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    bool bAutoActivate = true;\r\n    class UTBLPlayerState* OwnerState = Class'/Script/TBL.TBLPlayerState';\r\n    class UTBLCharacter* OwnerCharacter = Class'/Script/TBL.TBLCharacter';\r\n\r\n};",
+    "NODE_AddFB_BladeComponent_Client-1": "class AFB_BladeComponent_Client_C : public AActorComponent\r\n{\r\npublic:\r\n    int32 NumReplicatedProperties = 2;\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C:ExecuteUbergraph_FB_BladeComponent_Client'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    bool bAutoActivate = true;\r\n    class UTBLPlayerState* OwnerState = Class'/Script/TBL.TBLPlayerState';\r\n    class UTBLCharacter* OwnerCharacter = Class'/Script/TBL.TBLCharacter';\r\n\r\n};",
+    "NODE_AddFB_BladeComponent_Client-2": "class AFB_BladeComponent_Client_C : public AActorComponent\r\n{\r\npublic:\r\n    int32 NumReplicatedProperties = 2;\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_BladeComponent_Client.FB_BladeComponent_Client_C:ExecuteUbergraph_FB_BladeComponent_Client'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    bool bAutoActivate = true;\r\n    class UTBLPlayerState* OwnerState = Class'/Script/TBL.TBLPlayerState';\r\n    class UTBLCharacter* OwnerCharacter = Class'/Script/TBL.TBLCharacter';\r\n\r\n};",
+    "NODE_AddFB_CharacterComponent-0": "class AFB_CharacterComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_CharacterComponent.FB_CharacterComponent_C:ExecuteUbergraph_FB_CharacterComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    class UTBLCharacter* Character = Class'/Script/TBL.TBLCharacter';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UFB_AttachedActor_C* AttachedActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FB_AttachedActor.FB_AttachedActor_C';\r\n\r\n};",
+    "NODE_AddFB_InventoryItemComponent-0": "class AFB_InventoryItemComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C:ExecuteUbergraph_FB_InventoryItemComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    enum EFaction Faction = None;\r\n    int32 InitState = -1;\r\n    struct FRotator LastRotation = FRotator(0, 0, 0);\r\n    struct FRotator RotationDelta = FRotator(0, 0, 0);\r\n    struct FVector LastLocation = FVector(0, 0, 0);\r\n    struct FVector LocationDelta = FVector(0, 0, 0);\r\n    struct FVector CurVelocity = FVector(0, 0, 0);\r\n    struct FVector CurLinearVelocity = FVector(0, 0, 0);\r\n    struct FActorComponentTickFunction PrimaryComponentTick = {\r\n        \"bCanEverTick\": true\r\n    };\r\n    bool bAutoActivate = true;\r\n    class UInventoryItem* Item = Class'/Script/TBL.InventoryItem';\r\n    class UMaterialInstanceDynamic* CustomMaterial = Class'/Script/Engine.MaterialInstanceDynamic';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UAudioComponent* AudioComponent = Class'/Script/Engine.AudioComponent';\r\n    class UModularSynthComponent* SynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    bool bUseSound;\r\n    float CurMin;\r\n    float CurMax;\r\n    float LastVal;\r\n    class UModularSynthComponent* HighlightSynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    float LastLinearVal;\r\n    bool bInitialize;\r\n\r\n};",
+    "NODE_AddFB_InventoryItemComponent-1": "class AFB_InventoryItemComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C:ExecuteUbergraph_FB_InventoryItemComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    enum EFaction Faction = None;\r\n    int32 InitState = -1;\r\n    struct FRotator LastRotation = FRotator(0, 0, 0);\r\n    struct FRotator RotationDelta = FRotator(0, 0, 0);\r\n    struct FVector LastLocation = FVector(0, 0, 0);\r\n    struct FVector LocationDelta = FVector(0, 0, 0);\r\n    struct FVector CurVelocity = FVector(0, 0, 0);\r\n    struct FVector CurLinearVelocity = FVector(0, 0, 0);\r\n    struct FActorComponentTickFunction PrimaryComponentTick = {\r\n        \"bCanEverTick\": true\r\n    };\r\n    bool bAutoActivate = true;\r\n    class UInventoryItem* Item = Class'/Script/TBL.InventoryItem';\r\n    class UMaterialInstanceDynamic* CustomMaterial = Class'/Script/Engine.MaterialInstanceDynamic';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UAudioComponent* AudioComponent = Class'/Script/Engine.AudioComponent';\r\n    class UModularSynthComponent* SynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    bool bUseSound;\r\n    float CurMin;\r\n    float CurMax;\r\n    float LastVal;\r\n    class UModularSynthComponent* HighlightSynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    float LastLinearVal;\r\n    bool bInitialize;\r\n\r\n};",
+    "NODE_AddFB_InventoryItemComponent-2": "class AFB_InventoryItemComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C:ExecuteUbergraph_FB_InventoryItemComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    enum EFaction Faction = None;\r\n    int32 InitState = -1;\r\n    struct FRotator LastRotation = FRotator(0, 0, 0);\r\n    struct FRotator RotationDelta = FRotator(0, 0, 0);\r\n    struct FVector LastLocation = FVector(0, 0, 0);\r\n    struct FVector LocationDelta = FVector(0, 0, 0);\r\n    struct FVector CurVelocity = FVector(0, 0, 0);\r\n    struct FVector CurLinearVelocity = FVector(0, 0, 0);\r\n    struct FActorComponentTickFunction PrimaryComponentTick = {\r\n        \"bCanEverTick\": true\r\n    };\r\n    bool bAutoActivate = true;\r\n    class UInventoryItem* Item = Class'/Script/TBL.InventoryItem';\r\n    class UMaterialInstanceDynamic* CustomMaterial = Class'/Script/Engine.MaterialInstanceDynamic';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UAudioComponent* AudioComponent = Class'/Script/Engine.AudioComponent';\r\n    class UModularSynthComponent* SynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    bool bUseSound;\r\n    float CurMin;\r\n    float CurMax;\r\n    float LastVal;\r\n    class UModularSynthComponent* HighlightSynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    float LastLinearVal;\r\n    bool bInitialize;\r\n\r\n};",
+    "NODE_AddFB_InventoryItemComponent-3": "class AFB_InventoryItemComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C:ExecuteUbergraph_FB_InventoryItemComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    enum EFaction Faction = None;\r\n    int32 InitState = -1;\r\n    struct FRotator LastRotation = FRotator(0, 0, 0);\r\n    struct FRotator RotationDelta = FRotator(0, 0, 0);\r\n    struct FVector LastLocation = FVector(0, 0, 0);\r\n    struct FVector LocationDelta = FVector(0, 0, 0);\r\n    struct FVector CurVelocity = FVector(0, 0, 0);\r\n    struct FVector CurLinearVelocity = FVector(0, 0, 0);\r\n    struct FActorComponentTickFunction PrimaryComponentTick = {\r\n        \"bCanEverTick\": true\r\n    };\r\n    bool bAutoActivate = true;\r\n    class UInventoryItem* Item = Class'/Script/TBL.InventoryItem';\r\n    class UMaterialInstanceDynamic* CustomMaterial = Class'/Script/Engine.MaterialInstanceDynamic';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UAudioComponent* AudioComponent = Class'/Script/Engine.AudioComponent';\r\n    class UModularSynthComponent* SynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    bool bUseSound;\r\n    float CurMin;\r\n    float CurMax;\r\n    float LastVal;\r\n    class UModularSynthComponent* HighlightSynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    float LastLinearVal;\r\n    bool bInitialize;\r\n\r\n};",
+    "NODE_AddFB_InventoryItemComponent-4": "class AFB_InventoryItemComponent_C : public AActorComponent\r\n{\r\npublic:\r\n    class UFunction* UberGraphFunction = \"Function'TBL/Content/Mods/AgMods/FlashBlades/FB_InventoryItemComponent.FB_InventoryItemComponent_C:ExecuteUbergraph_FB_InventoryItemComponent'\";\r\n    struct FPointerToUberGraphFrame UberGraphFrame = {};\r\n    int32 FFASelectedColor = -1;\r\n    enum EFaction Faction = None;\r\n    int32 InitState = -1;\r\n    struct FRotator LastRotation = FRotator(0, 0, 0);\r\n    struct FRotator RotationDelta = FRotator(0, 0, 0);\r\n    struct FVector LastLocation = FVector(0, 0, 0);\r\n    struct FVector LocationDelta = FVector(0, 0, 0);\r\n    struct FVector CurVelocity = FVector(0, 0, 0);\r\n    struct FVector CurLinearVelocity = FVector(0, 0, 0);\r\n    struct FActorComponentTickFunction PrimaryComponentTick = {\r\n        \"bCanEverTick\": true\r\n    };\r\n    bool bAutoActivate = true;\r\n    class UInventoryItem* Item = Class'/Script/TBL.InventoryItem';\r\n    class UMaterialInstanceDynamic* CustomMaterial = Class'/Script/Engine.MaterialInstanceDynamic';\r\n    class UFlashBlades_C* ModActor = BlueprintGeneratedClass'TBL/Content/Mods/AgMods/FlashBlades/FlashBlades.FlashBlades_C';\r\n    class UAudioComponent* AudioComponent = Class'/Script/Engine.AudioComponent';\r\n    class UModularSynthComponent* SynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    bool bUseSound;\r\n    float CurMin;\r\n    float CurMax;\r\n    float LastVal;\r\n    class UModularSynthComponent* HighlightSynthComponent = Class'/Script/Synthesis.ModularSynthComponent';\r\n    float LastLinearVal;\r\n    bool bInitialize;\r\n\r\n};"
+  }
+}

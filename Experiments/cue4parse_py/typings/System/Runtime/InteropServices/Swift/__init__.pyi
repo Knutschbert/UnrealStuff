@@ -1,0 +1,19 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class SwiftSelf(System.ValueType):
+    def __init__(self, value: 'System.Void*') -> None: ...
+    Value: 'System.Void*' = ...
+
+class SwiftError(System.ValueType):
+    def __init__(self, value: 'System.Void*') -> None: ...
+    Value: 'System.Void*' = ...
+
+class SwiftIndirectResult(System.ValueType):
+    def __init__(self, value: 'System.Void*') -> None: ...
+    Value: 'System.Void*' = ...
+

@@ -1,0 +1,16 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class FCacheEventTrack(CUE4Parse.UE4.Assets.Objects.FStructFallback, CUE4Parse.UE4.Assets.Exports.IPropertyHolder, CUE4Parse.UE4.IUStruct):
+    def __init__(self, Ar: 'CUE4Parse.UE4.Assets.Readers.FAssetArchive') -> None: ...
+    Events: 'List[CUE4Parse.UE4.Assets.Objects.FStructFallback]' = ...
+
+class FCacheEventTrackConverter(Newtonsoft.Json.JsonConverter[CUE4Parse.UE4.Objects.ChaosCaching.FCacheEventTrack]):
+    def __init__(self) -> None: ...
+    def WriteJson(self, writer: 'Newtonsoft.Json.JsonWriter', value: 'CUE4Parse.UE4.Objects.ChaosCaching.FCacheEventTrack', serializer: 'Newtonsoft.Json.JsonSerializer') -> None: ...
+    def ReadJson(self, reader: 'Newtonsoft.Json.JsonReader', objectType: 'System.Type', existingValue: 'CUE4Parse.UE4.Objects.ChaosCaching.FCacheEventTrack', hasExistingValue: 'bool', serializer: 'Newtonsoft.Json.JsonSerializer') -> 'CUE4Parse.UE4.Objects.ChaosCaching.FCacheEventTrack': ...
+

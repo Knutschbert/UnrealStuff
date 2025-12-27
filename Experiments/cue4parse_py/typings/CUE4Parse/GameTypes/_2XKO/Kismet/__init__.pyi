@@ -1,0 +1,11 @@
+from __future__ import annotations
+from typing import Any, List, Dict, Optional, overload, TypeVar, Generic, Tuple
+import enum, System, CUE4Parse
+T = TypeVar('T')
+class Lazy(Generic[T]): value: T
+Nullable = Optional
+
+class EX_FixedPointConst(CUE4Parse.UE4.Kismet.KismetExpression[FixedMathSharp.Fixed64]):
+    def __init__(self, Ar: 'CUE4Parse.UE4.Assets.Readers.FKismetArchive') -> None: ...
+    Token: 'CUE4Parse.UE4.Kismet.EExprToken' = ...
+
